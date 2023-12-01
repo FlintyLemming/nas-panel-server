@@ -1,0 +1,58 @@
+# 编译后的二进制文件和对象文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+*.out
+*.test
+
+# 日志文件
+*.log
+
+# Go 工具生成的文件
+bin/
+pkg/
+
+# 输出目录
+dist/
+
+# 依赖项文件
+vendor/
+
+# VSCode 设置
+.vscode/
+
+# IntelliJ IDEA 设置
+.idea/
+
+# Mac OS 文件系统文件
+.DS_Store
+
+# Windows 文件系统文件
+Thumbs.db
+
+# 私有证书
+*.pem
+
+# 忽略配置文件
+*.yaml
+*.yml
+*.json
+*.xml
+*.toml
+
+# 忽略环境变量文件
+.env
+.env.local
+
+# 忽略测试文件
+*_test.go
+
+# 其他忽略文件
+!README.md
+!LICENSE
+!go.mod
+!go.sum
